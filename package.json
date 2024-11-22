@@ -12,5 +12,8 @@
     "GULP"
   ],
   "author": "Dylan De Vega Torres @ddvt_23",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.81.0"
+  }
 }
