@@ -2,9 +2,11 @@
   "name": "Festival_musica",
   "version": "1.0.0",
   "description": "Aprendiendo SASS y NPM",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/img/scss:build/css",
+    "css": "gulp css"
   },
   "keywords": [
     "SASS",
@@ -14,6 +16,8 @@
   "author": "Dylan De Vega Torres @ddvt_23",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "sass": "^1.81.0"
   }
 }
